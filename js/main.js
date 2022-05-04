@@ -2,14 +2,10 @@ $(window).load(function(){
      $('.preloader').fadeOut('slow');
 });
 
-
-/* =Main INIT Function
--------------------------------------------------------------- */
 function initializeSite() {
 
 	"use strict";
 
-	//OUTLINE DIMENSION AND CENTER
 	(function() {
 	    function centerInit(){
 
@@ -40,10 +36,7 @@ function initializeSite() {
 	$('#scene').parallax();
 
 };
-/* END ------------------------------------------------------- */
 
-/* =Document Ready Trigger
--------------------------------------------------------------- */
 $(window).load(function(){
 
 	initializeSite();
@@ -52,11 +45,9 @@ $(window).load(function(){
 	})();
 
 });
-/* END ------------------------------------------------------- */
-
 
 $('#countdown').countdown({
-	date: "Mar 25 2021",
+	date: "May 14 2022",
 	render: function(data) {
 	  var el = $(this.el);
 	  el.empty()
