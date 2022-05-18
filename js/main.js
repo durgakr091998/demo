@@ -46,7 +46,7 @@ $(window).load(function(){
 });
 
 $('#countdown').countdown({
-	date: "May 14 2022",
+	date: "May 22 2022",
 	render: function(data) {
 	  var el = $(this.el);
 	  el.empty()
